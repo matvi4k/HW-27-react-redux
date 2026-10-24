@@ -12,7 +12,7 @@ export const Cast = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const controller = new AbortController();
+    const controller = new AbortController()
 
     async function fetchCast() {
       try {
